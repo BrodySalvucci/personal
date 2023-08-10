@@ -46,10 +46,10 @@ export default function About({ refID, inView }: { refID: any; inView: boolean }
                     </h2>
                     <ul className='flex flex-row flex-wrap gap-2 mt-2 self-end rounded-md w-fit xl:px-0 px-8'>
                         <Techicon href='https://code.visualstudio.com/' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' delay={0.1} />
-                        <Techicon href='https://replit.com/' rel="icon" src='/replit-logo.webp' delay={0.2} />
+                        <Techicon href='https://replit.com/' src='/replit-logo.webp' delay={0.2} />
                         <Techicon href='https://www.putty.org/' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg' delay={0.3} />
                         <Techicon href='https://winscp.net/' src='https://cdn.e-z.host/e-zimagehosting/2082d908-7c65-4fc3-b02a-5f50f9141543/8qx6q91yedkiub4285.png' delay={0.4} />
-                        <Techicon href='https://www.namecheap.com/' rel="icon" src='/namecheap-logo.png' delay={0.5} />
+                        <Techicon href='https://www.namecheap.com/' src='/namecheap-logo.png' delay={0.5} />
                         <Techicon href='https://www.cloudflare.com/' src='https://cdn.e-z.host/e-zimagehosting/2082d908-7c65-4fc3-b02a-5f50f9141543/me2uv8xk95n010sdwz.png' delay={0.6} />
                     </ul>
                 </div>
