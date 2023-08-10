@@ -15,7 +15,7 @@ export default function About({ refID, inView }: { refID: any; inView: boolean }
                                 <Typewriter
                                     options={{
                                         delay: 30,
-                                        strings: ["Greetings, I'm Brody Salvucci, a 15-year-old resident of North Carolina with an extensive passion for development. My journey into the world of coding began at the young age of 8, when I found myself captivated by the intricacies of technology. I took my first steps by crafting creations on platforms like Roblox, honing my skills and channeling my enthusiasm into tangible projects. Now, as a freshman, I'm diving deeper into the realms of web and software development. My aspiration is to secure a fulfilling role that revolves around these domains. What I cherish the most is that moment of triumph after dedicating countless hours to untangle a complex challenge and finally overcoming it. Along this path, I've witnessed the fruits of my labor being embraced by others. One notable accomplishment was a Discord bot that found its way into over 100 servers, offering essential utilities. The joy of seeing people genuinely engage with and rely on my creation was nothing short of exhilarating. It's moments like these that drive my commitment to innovation and continuous improvement."],
+                                        strings: ["Greetings, I'm Brody Salvucci, a 15-year-old resident of North Carolina with an extensive passion for development. My journey into the world of coding began at the young age of 8, when I found myself captivated by the intricacies of technology. I took my first steps by crafting creations on platforms like Roblox, honing my skills and channeling my enthusiasm into tangible projects. Now, as a freshman, I'm diving deeper into the realms of web and software development. My aspiration is to secure a fulfilling role that revolves around these domains. What I cherish the most is that moment of triumph after dedicating countless hours to untangle a complex challenge and finally overcoming it. Along this path, I've witnessed the fruits of my labor being embraced by others. One notable accomplishment was a Discord bot that found its way into over 100 servers, offering essential utilities. The joy of seeing people genuinely engage with and rely on my creation was nothing short of exhilarating. It's moments like these that drive my commitment to innovation and continuous improvement. Although I don't have much projects to show for my work I look forword to creating more in my freshman year!"],
                                         loop: false,
                                         autoStart: true,
                                         deleteSpeed: 604800000,
@@ -46,12 +46,11 @@ export default function About({ refID, inView }: { refID: any; inView: boolean }
                     </h2>
                     <ul className='flex flex-row flex-wrap gap-2 mt-2 self-end rounded-md w-fit xl:px-0 px-8'>
                         <Techicon href='https://code.visualstudio.com/' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' delay={0.1} />
-                        <Techicon href='https://insomnia.rest/' src='https://cdn.e-z.host/e-zimagehosting/2082d908-7c65-4fc3-b02a-5f50f9141543/qr3zqlfckx6hkdj0nl.png' delay={0.2} />
+                        <Techicon href='https://replit.com/' rel="icon" src='/replit-logo.webp' delay={0.2} />
                         <Techicon href='https://www.putty.org/' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg' delay={0.3} />
                         <Techicon href='https://winscp.net/' src='https://cdn.e-z.host/e-zimagehosting/2082d908-7c65-4fc3-b02a-5f50f9141543/8qx6q91yedkiub4285.png' delay={0.4} />
-                        <Techicon href='https://www.hetzner.com/' src='https://cdn.e-z.host/e-zimagehosting/2082d908-7c65-4fc3-b02a-5f50f9141543/q4dzhs1beprvugs13m.png' delay={0.5} />
-                        <Techicon href='https://porkbun.com/' src='https://cdn.e-z.host/e-zimagehosting/2082d908-7c65-4fc3-b02a-5f50f9141543/z3xmhz3k1rc24l433c.png' delay={0.6} />
-                        <Techicon href='https://www.cloudflare.com/' src='https://cdn.e-z.host/e-zimagehosting/2082d908-7c65-4fc3-b02a-5f50f9141543/me2uv8xk95n010sdwz.png' delay={0.7} />
+                        <Techicon href='https://www.namecheap.com/' rel="icon" src='/namecheap-logo.png' delay={0.5} />
+                        <Techicon href='https://www.cloudflare.com/' src='https://cdn.e-z.host/e-zimagehosting/2082d908-7c65-4fc3-b02a-5f50f9141543/me2uv8xk95n010sdwz.png' delay={0.6} />
                     </ul>
                 </div>
             </section>
