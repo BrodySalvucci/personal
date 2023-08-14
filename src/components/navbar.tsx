@@ -1,6 +1,14 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Navbar({ clickScroll, clickScroll2, pageLoad }: { clickScroll: any, clickScroll2: any, pageLoad: boolean }) {
+   
+    const router = useRouter();
+
+    const handleProxyClick = () => {
+        router.push("https://proxy.brodysalvucci.com");
+    };
+   
     return (
         <>
             <header className='relative'>
@@ -15,6 +23,10 @@ export default function Navbar({ clickScroll, clickScroll2, pageLoad }: { clickS
                             </button>
                         </li>
                         <li>
+
+                        <button className='text-white font-kanit text-lg p-2 hover:bg-slate-800 duration-300 rounded-md' onClick={handleProxyClick}>
+                                Proxy
+                            </button>
                             {/* <button className='text-white font-kanit text-lg p-2 hover:bg-slate-800 duration-300 rounded-md' onClick={clickScroll2}>
                                 Projects
                             </button> */}
