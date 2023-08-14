@@ -1,8 +1,20 @@
-# My personal site
+# My Personal Website
 
-I use this site to show off what I am currently working on, and some of my interests.
+Welcome to the repository for my personal website. This project showcases my portfolio and provides information about me.
 
-I will not be helping people set this up. If you don't know how to do it then simply don't bother.
+## About
 
-![Logo](https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/lbo1x6wn.png)# personal
-# personal
+In this section, I've provided an overview of myself and my skills.
+
+## Getting Started
+
+To get a copy of this project up and running on your local machine, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/brodysalvucci/personal.git`
+2. Navigate to the project folder: `cd personal`
+3. Open the project in your preferred code editor.
+4. Explore the different sections of the website and the project structure.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
