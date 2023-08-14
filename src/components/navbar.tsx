@@ -15,9 +15,9 @@ export default function Navbar({ clickScroll, clickScroll2, pageLoad }: { clickS
                             </button>
                         </li>
                         <li>
-                            <button className='text-white font-kanit text-lg p-2 hover:bg-slate-800 duration-300 rounded-md' onClick={clickScroll2}>
+                            {/* <button className='text-white font-kanit text-lg p-2 hover:bg-slate-800 duration-300 rounded-md' onClick={clickScroll2}>
                                 Projects
-                            </button>
+                            </button> */}
                         </li>
                     </ul>
                 </nav>
