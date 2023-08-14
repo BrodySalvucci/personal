@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
+import React, { ReactNode } from "react";
 
-export default function Projectcard({ src, title, description, href, delay }: { src: string, title: string, description: string, href: string, delay: number }) {
+export default function Projectcard({ src, title, description, href, delay }: { src: string, title: string, description: ReactNode, href: string, delay: number }) {
     return (
         <>
             <motion.li

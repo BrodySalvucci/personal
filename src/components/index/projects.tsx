@@ -1,6 +1,21 @@
+import React from 'react';
+
 import Projectcard from '@/components/projectcard';
 
 export default function Projects() {
+
+    const projectDescription = (
+        <React.Fragment>
+                       <strong> ⚠️ Expect a wait when loading the website at first ⚠️</strong> <br /><br />
+                        🔐 Unrestricted Access: Say goodbye to geo-restrictions and internet censorship. Holy-Unblocker opens up a world of possibilities, letting you explore websites and content from anywhere in the world.<br /><br />
+                        ⚡ Lightning Fast: Our proxy service is designed for speed. Enjoy rapid connections and smooth browsing, ensuring you never experience frustrating lags or delays.<br /><br />
+                        🌐 Anonymous Surfing: Protect your privacy while you surf the web. Holy-Unblocker hides your IP address, keeping your online activities secure and anonymous.<br /><br />
+                        📱 Cross-Platform Compatibility: Whether you&apos;re on your desktop, laptop, tablet, or smartphone, Holy-Unblocker works seamlessly across all devices and operating systems.<br /><br />
+                        🛡️ Secure Encryption: Safeguard your data with robust encryption. Holy-Unblocker ensures that your sensitive information remains private and secure, even on public networks.<br /><br />
+                        🌍 Global Server Network: Our distributed server network spans the globe, ensuring reliable access no matter where you are. Say goodbye to content restrictions and hello to borderless browsing.
+                        </React.Fragment>
+    );
+
     return (
         <>
             <section className='relative bg-slate-900 pb-8'>
@@ -18,6 +33,17 @@ export default function Projects() {
                     </p>
 
                 </div>
+
+                <ul className='lg:grid-cols-3 grid-cols-1 max-w-5xl w-full mx-auto gap-4 pt-8 pb-16 lg:px-0 md:px-32 px-8'>
+                <Projectcard
+                    src='https://cdn.discordapp.com/attachments/1139277832632143932/1140717863347437709/image.png'
+                     title='School Proxy'
+                     description={projectDescription}
+                    href='https://proxy.brodysalvucci.com'
+                    delay={0.1}
+                />
+                </ul>
+
                 {/* <ul className='grid lg:grid-cols-3 grid-cols-1 max-w-5xl w-full mx-auto gap-4 pt-8 pb-16 lg:px-0 md:px-32 px-8'>
                     <Projectcard
                         src='https://cdn.discordapp.com/attachments/1139277832632143932/1139278254583336960/Artboard_1.PNG'
