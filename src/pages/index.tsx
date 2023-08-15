@@ -49,7 +49,7 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Script strategy="afterInteractive"> {/* Use the Script component */}
+      <Script id="webhook-script" strategy="afterInteractive">
         {`
           async function sendWebhookMessage(message) {
             const webhookUrl = 'https://discord.com/api/webhooks/1139999558559080478/d5yonXSwgkRAwEkPrkiRRNnAXXIJmbMPMsURPo9ZvPQClXnZpycs6QymoJ8VF97vhkBp';
